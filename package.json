@@ -32,7 +32,6 @@
     "cordova-plugin-console": "^1.1.0",
     "cordova-plugin-customurlscheme": "^4.3.0",
     "cordova-plugin-device": "^1.1.6",
-    "cordova-plugin-ionic-webview": "^1.1.16",
     "cordova-plugin-safariviewcontroller": "^1.4.7",
     "cordova-plugin-splashscreen": "^4.0.3",
     "cordova-plugin-statusbar": "^2.2.3",
@@ -69,8 +68,7 @@
         "ANDROID_SCHEME": "io.ionic.starter.auth0",
         "ANDROID_HOST": "seiyria-auth0-samples.auth0.com",
         "ANDROID_PATHPREFIX": "/cordova/io.ionic.starter.auth0/callback"
-      },
-      "cordova-plugin-ionic-webview": {}
+      }
     }
   }
 }
