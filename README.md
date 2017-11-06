@@ -44,7 +44,7 @@ You'll need a few cordova plugins to get `@auth0/cordova` to work. You can add t
 
 * `ionic cordova plugin add cordova-plugin-safariviewcontroller`
 * `ionic cordova plugin add cordova-plugin-customurlscheme --variable URL_SCHEME={YOUR_PACKAGE_ID} --variable ANDROID_SCHEME={YOUR_PACKAGE_ID} --variable ANDROID_HOST={YOUR_AUTH0_DOMAIN} --variable ANDROID_PATHPREFIX=/cordova/{YOUR_PACKAGE_ID}/callback`
-* `ionic cordova plugin add cordova-plugin-customurlscheme --variable URL_SCHEME=io.ionic.starter.auth0 --variable ANDROID_SCHEME=io.ionic.starter.auth0 --variable ANDROID_HOST={YOUR_AUTH0_DOMAIN} --variable ANDROID_PATHPREFIX=/cordova/io.ionic.starter.auth0/callback`
+* `ionic cordova plugin add cordova-plugin-customurlscheme --variable URL_SCHEME=io.ionic.starter.auth0 --variable ANDROID_SCHEME=io.ionic.starter.auth0 --variable ANDROID_HOST=tahmina.auth0.com --variable ANDROID_PATHPREFIX=/cordova/io.ionic.starter.auth0/callback`
 
 The variables used when installing `cordova-plugin-customurlscheme` are the same from when you set up the Callback URL in your Auth0 Dashboard.
 
