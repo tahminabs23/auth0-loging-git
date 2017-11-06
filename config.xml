@@ -94,4 +94,5 @@
         <variable name="ANDROID_HOST" value="seiyria-auth0-samples.auth0.com" />
         <variable name="ANDROID_PATHPREFIX" value="/cordova/io.ionic.starter.auth0/callback" />
     </plugin>
+    <plugin name="cordova-plugin-ionic-webview" spec="^1.1.16" />
 </widget>
